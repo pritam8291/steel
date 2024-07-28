@@ -1,0 +1,68 @@
+
+.nav-item.dropdown:hover .dropdown-menu{
+    display: block;
+    margin-top:0;
+   }
+.c{
+box-shadow: 3px 3px  3px rgb(216, 216, 216) ;
+}
+.card-hover{
+    transition: transform 0.3s, z-index 0.3s;
+    z-index: 1;
+}
+.card{
+    overflow: hidden;
+    box-shadow: 3px 3px  5px rgb(233, 233, 233) ;
+    cursor: pointer;
+}
+.c1{
+    position: relative;
+}
+.btn-overlay{
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    z-index: 20;
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+    display: inline-block;
+    font-weight: bold;
+   border-radius: 5px;
+}
+.btn-overlay1{
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    z-index: 20;
+    background-color:green;
+    color: white;
+    border: 1px solid green;
+    display: inline-block;
+    font-weight: bold;
+   border-radius: 5px;
+}
+
+.card-hover:hover{
+    transform: scale(1.05);
+    z-index: 10;
+}
+.img-hover{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    transition: transform 0.3s, z-index 0.3s;
+    z-index: 1;
+    position: relative;
+}
+.img-hover:hover{
+    transform: scale(1.05);
+    z-index: 10;
+}
+
+ .na a:hover{
+    background: #1abc1a;
+    border-radius: 8px;
+    color: white;
+    
+ }

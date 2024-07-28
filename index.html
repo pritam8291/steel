@@ -1,0 +1,486 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="images/logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container-fluid m-2 mt-2">
+     
+        <div class="row">
+          <div class="col-3 text-start px-5 py-2">
+            <a class="navbar-brand" href="#"><img src="images/logo.png" alt="no image" width="120" height="40"></a>
+          </div>
+          <div class="col-6 text-center py-3">
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-danger" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+          </div>
+          <div class="col-3 text-center py-3">
+            <button class="btn btn-outline-danger mx-4" type="submit"><i class="fa-solid fa-user"></i></button>
+            <button class="btn btn-outline-danger" type="submit"><i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+        </div>
+    </div>
+   
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 px-4 mb-lg-0 fw-bold gap-3 text-uppercase">
+            <li class="nav-item  dropdown ">
+              <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Cooking and baking
+              </a>
+              <ul class="dropdown-menu border-0 bg-body-tertiary ">
+                <li><a class="dropdown-item fw-bold text-secondary-emphasis" href="#">Action</a></li>
+                <li><a class="dropdown-item fw-bold text-secondary-emphasis" href="#">Action</a></li>
+                <li><a class="dropdown-item fw-bold text-secondary-emphasis" href="#">Action</a></li>
+              </ul>
+            </li>
+            <li class="nav-item  dropdown ">
+              <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dinning and drinking
+              </a>
+              <ul class="dropdown-menu border-0 bg-body-tertiary ">
+                <li><a class="dropdown-item fw-bold text-secondary-emphasis" href="#">Action</a></li>
+                <li><a class="dropdown-item fw-bold text-secondary-emphasis" href="#">Another action</a></li>
+                <li><a class="dropdown-item fw-bold text-secondary-emphasis" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item  dropdown ">
+              <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Kitchen tools and essentials
+              </a>
+              <ul class="dropdown-menu border-0 bg-body-tertiary ">
+                <li><a class="dropdown-item fw-bold text-secondary-emphasis" href="#">Action</a></li>
+                <li><a class="dropdown-item fw-bold text-secondary-emphasis" href="#">Another action</a></li>
+                <li><a class="dropdown-item fw-bold text-secondary-emphasis" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item  dropdown ">
+              <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Pooja gifting & more
+              </a>
+              <ul class="dropdown-menu border-0 bg-body-tertiary ">
+                <li><a class="dropdown-item fw-bold text-secondary-emphasis" href="#">Action</a></li>
+                <li><a class="dropdown-item fw-bold text-secondary-emphasis" href="#">Another action</a></li>
+                <li><a class="dropdown-item fw-bold text-secondary-emphasis" href="#">Something else here</a></li>
+              </ul>
+            </li>
+           
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div id="carouselExampleInterval" class="carousel slide mt-1" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="images/banner_01124810Smart_Steamer_final_banner (1).jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="1000">
+          <img src="images/banner_12070020WhatsApp_Image_2023_12_07_at_14.52.52_fdfbf8d1.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="10000">
+          <img src="images/banner_12052659brass_d.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon  bg-dark rounded-1 " aria-hidden="true"></span>
+        <span class="visually-hidden ">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+        <span class="carousel-control-next-icon bg-dark rounded-1 " aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="container mt-5">
+      <h1 class="text-center mb-4 fw-bold"><span style="color: red;">SHOP BY</span> CATEGORIES</h1>
+      <div class="row row-cols-1 row-cols-md-5 g-4">
+        <div class="col">
+          <div class="card  card-hover text-center c" style="width:12rem">
+            <img src="images/category_Teapot_05121133teapot.jpg" class="card-img-top" alt="">
+          <div class="card-body">
+            <h5 class="card-title">
+              kitchen
+            </h5>
+          </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card card-hover text-center c" style="width:12rem">
+            <img src="images/category_Teapot_05121133teapot.jpg" class="card-img-top" alt="">
+          <div class="card-body">
+            <h5 class="card-title">
+              kitchen
+            </h5>
+          </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card card-hover text-center c" style="width:12rem">
+            <img src="images/category_FRYING PAN_07300427WhatsApp_Image_2022_07_30_at_2.05.38_PM.jpeg" class="card-img-top" alt="">
+          <div class="card-body">
+            <h5 class="card-title">
+              kitchen
+            </h5>
+          </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card card-hover text-center c" style="width:12rem">
+            <img src="images/category_Ice Bucket_05122848Ice_Bucket.jpg" class="card-img-top" alt="">
+          <div class="card-body">
+            <h5 class="card-title">
+              kitchen
+            </h5>
+          </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card card-hover text-center c" style="width:12rem">
+            <img src="images/category_Parat_05122246parat.jpg" class="card-img-top" alt="">
+          <div class="card-body">
+            <h5 class="card-title">
+              kitchen
+            </h5>
+          </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+   
+    <div class="container mt-5">
+      <h1 class="text-center fw-bold "><span style="color: red;">TRENDING</span> ITEMS</h1>
+      <p class="text-center fw-bold">Shop and get your favourite items at amazing prices!</p>
+      <div class="row row-cols-1 row-cols-md-3 g-5">
+        <div class="col-md-4">
+          <div class="card c1 h-100  pt-2" >
+          
+              <img src="images/img_217_20231031115231.jpeg" class="card-img-top img-hover" alt="">
+          <button class="btn-overlay">Sale</button>
+            
+          <div class="card-body">
+            <h5 class="card-title">
+              kitchen
+            </h5>
+            <p>₹400</p>
+            <div class="text-end">
+              <a href="" class="text-danger fs-3 cursor-pointer"><i class="fas fa-cart-shopping"></i></a>
+            </div>
+           
+          </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card  h-100  pt-2" >
+        
+            <img src="images/img_289_20231047115347.jpeg" class="card-img-top img-hover" alt="">
+            <button class="btn-overlay">Sale</button>
+          <div class="card-body">
+            <h5 class="card-title">
+              kitchen
+            </h5>
+            <p>₹400</p>
+            <div class="text-end">
+              <a href="" class="text-danger fs-3 cursor-pointer"><i class="fas fa-cart-shopping"></i></a>
+            </div>
+          
+          </div>
+          </div>
+        </div>
+      
+        <div class="col-md-4">
+          <div class="card  h-100  pt-2" >
+         
+            <img src="images/img_291_20231028033628.jpeg" class="card-img-top img-hover" alt="">
+            <button class="btn-overlay">Sale</button>
+          <div class="card-body">
+            <h5 class="card-title">
+              kitchen
+            </h5>
+            <p>₹400</p>
+            <div class="text-end">
+              <a href="" class="text-danger fs-3 cursor-pointer"><i class="fas fa-cart-shopping"></i></a>
+            </div>
+          
+          </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+ <div class="container mt-5">
+  <h1 class="text-center fw-bold mb-3"><span style="color: red;">UPCOMING </span>PRODUCT</h1>
+  <div class="row text-center fs-5 fw-bold mb-4 na" id="list-tab" role="tablist">
+    
+      <div class="col">
+        <a href="#list-home" role="tab" data-bs-toggle="list" 
+        area-controls="list-home" class="list-group-item list-group-item-action active " id="list-home-list">
+          Home
+        </a> 
+      </div>
+      <div class="col">
+        <a href="#list-profile" role="tab" data-bs-toggle="list" 
+        area-controls="list-profile" class="list-group-item list-group-item-action " id="list-profile-list">
+          Kitchen
+        </a>
+      </div> 
+        <div class="col">
+          <a href="#list-wooden" role="tab" data-bs-toggle="list" 
+          area-controls="list-wooden" class="list-group-item list-group-item-action " id="list-wooden-list">
+            Wooden Utensil
+          </a> 
+      </div>
+      <div class="col">
+        <a href="#list-Thali" role="tab" data-bs-toggle="list" area-controls="list-Thali" 
+        class="list-group-item list-group-item-action " id="list-Thali-list">
+          Thali
+        </a> 
+      </div>
+      
+    
+  </div>
+  <div class="tab-content text-center" id="nav-tabContent">
+    <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+     <div class="row">
+      <div class="col-md-3">
+        <div class="card    pt-2" > 
+          <img src="images/img_289_20231047115347.jpeg" class="card-img-top img-hover h-50" alt="">
+          <button class="btn-overlay1">New</button>
+        <div class="card-body">
+          <h5 class="card-title">
+            kitchen
+          </h5>
+          <p>₹400</p>
+          <div class="text-end">
+            <a href="" class="text-danger fs-3 cursor-pointer"><i class="fas fa-cart-shopping"></i></a>
+          </div>
+        
+        </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card    pt-2" >
+          <img src="images/img_289_20231047115347.jpeg" class="card-img-top img-hover  h-50" alt="">
+          <button class="btn-overlay1">New</button>
+        <div class="card-body">
+          <h5 class="card-title">
+            kitchen
+          </h5>
+          <p>₹400</p>
+          <div class="text-end">
+            <a href="" class="text-danger fs-3 cursor-pointer"><i class="fas fa-cart-shopping"></i></a>
+          </div>
+        
+        </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card    pt-2" >
+          <img src="images/img_289_20231047115347.jpeg" class="card-img-top img-hover  h-50" alt="">
+          <button class="btn-overlay1">New</button>
+        <div class="card-body">
+          <h5 class="card-title">
+            kitchen
+          </h5>
+          <p>₹400</p>
+          <div class="text-end">
+            <a href="" class="text-danger fs-3 cursor-pointer"><i class="fas fa-cart-shopping"></i></a>
+          </div>
+        
+        </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card    pt-2" >
+          <img src="images/img_289_20231047115347.jpeg" class="card-img-top img-hover  h-50" alt="">
+          <button class="btn-overlay1">New</button>
+        <div class="card-body">
+          <h5 class="card-title">
+            kitchen
+          </h5>
+          <p>₹400</p>
+          <div class="text-end">
+            <a href="" class="text-danger fs-3 cursor-pointer"><i class="fas fa-cart-shopping"></i></a>
+          </div>
+        
+        </div>
+        </div>
+      </div>
+      </div>
+     </div>
+      
+    
+    <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card pt-2" >
+            <img src="images/img_291_20231028033628.jpeg" class="card-img-top img-hover  h-50" alt="">
+            <button class="btn-overlay1">New</button>
+          <div class="card-body">
+            <h5 class="card-title">
+              kitchen
+            </h5>
+            <p>₹400</p>
+            <div class="text-end">
+              <a href="" class="text-danger fs-3 cursor-pointer"><i class="fas fa-cart-shopping"></i></a>
+            </div>
+          
+          </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card pt-2" >
+            <img src="images/img_291_20231028033628.jpeg" class="card-img-top img-hover  h-50" alt="">
+            <button class="btn-overlay1">New</button>
+          <div class="card-body">
+            <h5 class="card-title">
+              kitchen
+            </h5>
+            <p>₹400</p>
+            <div class="text-end">
+              <a href="" class="text-danger fs-3 cursor-pointer"><i class="fas fa-cart-shopping"></i></a>
+            </div>
+          
+          </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card pt-2" >
+            <img src="images/img_291_20231028033628.jpeg" class="card-img-top img-hover  h-50" alt="">
+            <button class="btn-overlay1">New</button>
+          <div class="card-body">
+            <h5 class="card-title">
+              kitchen
+            </h5>
+            <p>₹400</p>
+            <div class="text-end">
+              <a href="" class="text-danger fs-3 cursor-pointer"><i class="fas fa-cart-shopping"></i></a>
+            </div>
+          
+          </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card pt-2" >
+            <img src="images/img_291_20231028033628.jpeg" class="card-img-top img-hover  h-50" alt="">
+            <button class="btn-overlay1">New</button>
+          <div class="card-body">
+            <h5 class="card-title">
+              kitchen
+            </h5>
+            <p>₹400</p>
+            <div class="text-end">
+              <a href="" class="text-danger fs-3 cursor-pointer"><i class="fas fa-cart-shopping"></i></a>
+            </div>
+          
+          </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    <div class="tab-pane fade" id="list-Thali" role="tabpanel" aria-labelledby="list-thali-list">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card pt-2" >
+            <img src="images/img_291_20231028033628.jpeg" class="card-img-top img-hover  h-50" alt="">
+            <button class="btn-overlay1">New</button>
+          <div class="card-body">
+            <h5 class="card-title">
+              kitchen
+            </h5>
+            <p>₹400</p>
+            <div class="text-end">
+              <a href="" class="text-danger fs-3 cursor-pointer"><i class="fas fa-cart-shopping"></i></a>
+            </div>
+          
+          </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card pt-2" >
+            <img src="images/img_257_20231003033803.jpeg" class="card-img-top img-hover  h-50" alt="">
+            <button class="btn-overlay1">New</button>
+          <div class="card-body">
+            <h5 class="card-title">
+              kitchen
+            </h5>
+            <p>₹400</p>
+            <div class="text-end">
+              <a href="" class="text-danger fs-3 cursor-pointer"><i class="fas fa-cart-shopping"></i></a>
+            </div>
+          
+          </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    <div class="tab-pane fade" id="list-wooden" role="tabpanel" aria-labelledby="list-wooden-list">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card pt-2" >
+            <img src="images/img_291_20231028033628.jpeg" class="card-img-top img-hover  h-50" alt="">
+            <button class="btn-overlay1">New</button>
+          <div class="card-body">
+            <h5 class="card-title">
+              wooden
+            </h5>
+            <p>₹400</p>
+            <div class="text-end">
+              <a href="" class="text-danger fs-3 cursor-pointer"><i class="fas fa-cart-shopping"></i></a>
+            </div>
+          
+          </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+ </div>
+ <footer class="bg-dark text-white pt-4 mt-4">
+  <div class="container">
+    <div class="row ">
+      <div class="col-md-4">
+        <h5>About Us</h5>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam consequuntur voluptates velit harum enim
+         error voluptate fugit expedita, unde adipisci ipsum natus eaque sint reprehenderit odio architecto temporibus. Voluptatem, eaque.</p>
+      </div>
+      <div class="col-md-4 text-center">
+        <h5>Quick Links</h5>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-white">Home</a></li>
+          <li><a href="#" class="text-white">Services</a></li>
+          <li><a href="#" class="text-white">Contact</a></li>
+          <li><a href="#" class="text-white">About</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4 text-center">
+        <h5>Contact Us</h5>
+       <address>
+        123,Street Name <br>City State,ZIP <br> Email,<a href=""class="text-white">abc@gmail.com</a><br>Phone:987655433
+       </address>
+      </div>
+    </div>
+    <div class="text-center pt-3">
+      <p>&copy;2024 Your Company. All Right Reserved.</p>
+    </div>
+  </div>
+ </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  </body>
+</html>
